@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work-01</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color:black;
+    }
+    
+    .Container1{
+        width: 1600px;
+        height: 200px; 
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    button{
+        
+        margin: 50px;
+    }
+
+    .Red{
+        width: 120px;
+        height: 120px;
+        background-color: red;
+        border-radius: 80px;
+        cursor: pointer;
+    }
+    
+    .Orange{
+        width: 120px;
+        height: 120px;
+        background-color: orange;
+        border-radius: 80px;
+                cursor: pointer;
+
+    }
+  
+    .Yellow{
+        width: 120px;
+        height: 120px;
+        background-color: yellow;
+        border-radius: 80px;
+        cursor: pointer;
+
+    }
+
+    .Green{
+        width: 120px;
+        height: 120px;
+        background-color: green;
+        border-radius: 80px;
+        cursor: pointer;
+
+    }
+
+    .Blue{
+        width: 120px;
+        height: 120px;
+        background-color: blue;
+        border-radius: 80px;
+        cursor: pointer;
+    }
+
+    .Navy{
+        width: 120px;
+        height: 120px;
+        background-color: navy;
+        border-radius: 80px;
+        cursor: pointer;
+    }
+
+    .Purple{
+        width: 120px;
+        height: 120px;
+        background-color: purple;
+        border-radius: 80px;
+        cursor: pointer;
+    }
+
+    .Container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 1600px;
+        height: 650px;
+    }
+    .Cup{
+        margin: 20px;
+        padding: 2px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border-left: 3px solid white;
+        border-right: 3px solid white;
+        border-bottom: 3px solid white;
+        width: 300px;
+        height: 500px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        }
+
+    .slot{
+        margin: 0;
+        width: 300px;
+        height: 70px;
+        transition: background-color 0.5s ease;
+    }
+
+    #floor1{
+        margin-bottom: 1px;
+        border-bottom-left-radius: 36px;
+        border-bottom-right-radius: 36px;       
+    }
+
+    .rebtn{
+        margin: 30px;
+        width: 180px;
+        height: 70px;
+        border: 3px solid black;
+        cursor: pointer;
+        background-color :white;
+        border-radius: 15px;
+        font-size: 40px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+
+    #concept{
+        color: white;
+    }
+</style>
+<body>
+    <div class="Container1">
+            <button class="Red">
+                
+            </button>
+            <button class="Orange">
+
+            </button>
+            <button class="Yellow">
+
+            </button>
+            <button class="Green">
+
+            </button>
+            <button class="Blue">
+
+            </button>
+            <button class="Navy">
+
+            </button>
+            <button class="Purple">
+
+            </button>
+    </div>
+    <div class="Container2">
+        <span class="Cup">
+            <div class="slot" id="floor1">
+
+            </div>
+            <div class="slot" id="floor2">
+
+            </div>
+            <div class="slot" id="floor3">
+
+            </div>
+            <div class="slot" id="floor4">
+
+            </div>
+            <div class="slot" id="floor5">
+
+            </div>
+            <div class="slot" id="floor6">
+
+            </div>
+            <div class="slot" id="floor7">
+
+            </div>
+        </span>
+        <button class="rebtn">
+            <p>Clear</p>
+        </button>
+    </div>
+    <h1 id="concept">Fill The Cup With Color</h1>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="Work-01.JS"></script>
+</body>
+</html>
