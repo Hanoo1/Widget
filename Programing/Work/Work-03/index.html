@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            user-select: none;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .menu{
+            width: 1200px;
+            height: 3000px;
+            
+            text-align: center;
+        }
+
+        .sign{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            width: 1200px;
+            font-size: 35px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        }
+
+        .item{
+            margin: 20px;
+            display: inline-block;
+            vertical-align: top;
+            width: 350px;
+            height: 350px;
+            border: 2px solid black;
+            justify-content: center;
+            align-content: center   ;
+            font-size: 50px;
+            cursor: pointer;
+            transition-duration: 0.5s;
+            background-color: white;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 10px;
+        }
+
+        .item:hover{
+            scale: 105%;
+            box-shadow: 7px 7px 10px rgba(0,0,0,0.3);
+
+        }
+
+        .item img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        #modal{
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            display: none;
+        }
+
+        #modal-content{
+            width: 600px;
+            background-color: white;
+            padding:20px;
+            text-align: center;
+            font-size: 45px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            
+        }
+        
+        #modal-content img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+    </style>
+<body>
+    <div class="menu">
+        <div class="sign">
+            <h1>Memorizing Amino Acid Form</h1>
+        </div>
+        <div class="item" id="1">
+            Alanine
+        </div>
+        <div class="item" id="2">
+            Arginine
+        </div>
+        <div class="item" id="3">
+            Asparagine
+        </div> 
+        <div class="item" id="4">
+            Asparatic Acid
+        </div>
+        <div class="item" id="5">
+            Cysteine
+        </div>
+        <div class="item" id="6">
+            Glutaminc Acid
+        </div>
+        <div class="item" id="7">
+            <img id="glutamine" src="사진모음/glutamine.png" alt="glutamine">
+        </div>
+        <div class="item" id="8">
+            <img id="glysine" src="사진모음/glysine.png" alt="glysine">
+        </div>
+        <div class="item" id="9">
+            <img id="histidine" src="사진모음/histidine.png" alt="histidine">
+        </div>
+        <div class="item" id="10">
+            <img id="isoleucine" src="사진모음/isoleucine.png" alt="isoleucine">
+        </div>
+        <div class="item" id="1">
+            <img id="leucine" src="사진모음/leucine.png" alt="leucine">
+        </div>
+        <div class="item" id="12">
+            <img id="lysine" src="사진모음/lysine.png" alt="lysine">
+        </div>
+        <div class="item" id="13">
+            <img id="methionine" src="사진모음/methionine.png" alt="methionine">
+        </div>
+        <div class="item" id="14">
+            <img id="phenylalanine" src="사진모음/phenylalanine.png" alt="phenylalanine">
+        </div>
+        <div class="item" id="15">
+            <img id="proline" src="사진모음/proline.png" alt="proline">
+        </div>
+        <div class="item" id="16">
+            <img id="serine" src="사진모음/serine.png" alt="serine">
+        </div>
+        <div class="item" id="17">
+            <img id="threonine" src="사진모음/threonine.png" alt="threonine">
+        </div>
+        <div class="item" id="18">
+            <img id="tryptophan" src="사진모음/tryptophan.png" alt="tryptophan">
+        </div>
+        <div class="item" id="19">
+            <img id="tyrosine" src="사진모음/tyrosine.png" alt="tyrosine">
+        </div>
+        <div class="item" id="20">
+            <img id="valine" src="사진모음/valine.png" alt="valine">
+        </div>
+        <div class="item" id="test">
+            test
+        </div>
+    </div>
+
+    <div id="modal">
+        <div id="modal-content">
+            <img id="alanine" src="사진모음/alanine.png" alt="alanine">
+            <p id="p">Alanine/알라닌</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+    <script src="4.JS"></script>
+</html>
